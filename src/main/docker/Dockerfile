@@ -1,4 +1,4 @@
-FROM sdtwvms00305:5000/fubonlife/eap-base
+FROM java:8
 
 VOLUME /tmp
 ADD test-docker-0.0.1-SNAPSHOT.jar /opt/app/test-docker.jar
